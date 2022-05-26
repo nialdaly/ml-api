@@ -10,7 +10,7 @@ variable "instance_count" {
 
 variable "instance_type" {
   type    = string
-  default = "ml.m5.xlarge"
+  default = "ml.t2.medium"
 }
 
 variable "repository_name" {
